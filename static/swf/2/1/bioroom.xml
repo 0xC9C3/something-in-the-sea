@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bioroom>
+    <baseURL><![CDATA[]]></baseURL>
+    <archiver>
+        <url><![CDATA[swf/archiver.swf]]></url>
+    </archiver>
+    <bg><![CDATA[../img/bioroom/bg/bg1.jpg]]></bg>
+    <leftArrow><![CDATA[../img/bioroom/bg/leftArrow.png]]></leftArrow>
+    <rightArrow><![CDATA[../img/bioroom/bg/rightArrow.png]]></rightArrow>
+    <answering_machine_message></answering_machine_message>
+    <radio>
+        <![CDATA[../mp3/static.mp3]]>
+    </radio>
+    <items>
+        <item>
+            <linkage>day1</linkage>
+            <properties x="1024" y="633"/>
+            <url>
+                <fullsize>
+                    <![CDATA[swf/bioroom/day1_item101.swf]]>
+                </fullsize>
+                <thumb>
+                    <![CDATA[../img/bioroom/thumb/day1_item101.png]]>
+                </thumb>
+            </url>
+        </item>
+        <item>
+            <linkage>day1</linkage>
+            <properties x="1250" y="350"/>
+            <url>
+                <fullsize>
+                    <![CDATA[../img/bioroom/fullsize/day1_item102.png]]>
+                </fullsize>
+                <thumb>
+                    <![CDATA[../img/bioroom/thumb/day1_item102.png]]>
+                </thumb>
+            </url>
+        </item>
+        <item>
+            <linkage>day1</linkage>
+            <properties x="1291" y="350"/>
+            <url>
+                <fullsize>
+                    <![CDATA[../img/bioroom/fullsize/day1_item103.png]]>
+                </fullsize>
+                <thumb>
+                    <![CDATA[../img/bioroom/thumb/day1_item103.png]]>
+                </thumb>
+            </url>
+        </item>
+        <item>
+            <linkage>day1</linkage>
+            <properties x="882" y="244"/>
+            <url>
+                <fullsize>
+                    <![CDATA[../img/bioroom/fullsize/day1_item104.png]]>
+                </fullsize>
+                <thumb>
+                    <![CDATA[../img/bioroom/thumb/day1_item104.png]]>
+                </thumb>
+            </url>
+        </item>
+    </items>
+</bioroom>
