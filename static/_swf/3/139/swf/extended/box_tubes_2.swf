@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>There's Something in the Sea</title>
+		<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <META NAME="description" CONTENT="Taken">
+        <META NAME="keywords" CONTENT="Taken, Liam, etc">
+		<style type="text/css" media="screen">
+			body { background-color: #000000; margin:0; padding:0; text-align:center; }
+			#container { margin:0 auto; width:1024px; height: 870px; text-align:left; }
+			#nos_bg {}
+		</style>
+        <script type="text/javascript" src="../js/swfobject.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="content"></div>
+            <script type="text/javascript">
+				var vars = { };
+				var params = { scale:'noScale', salign:'TL', menu:'false', wmode: 'opaque', allowFullScreen: 'true', allowScriptAccess: 'always', bgcolor: '#000000' };
+				var attributes = { id:'content', name:'content' }; // give an id to the flash object
+				swfobject.embedSWF("swf/preloader.swf", "content", "1024", "870", "9.0.0", "swf/adobe/expressInstall.swf", vars, params, attributes );
+			</script>
+		</div>
+        <noscript>
+        	<div id="nos_bg"></div>
+            <div id="noscript">
+                <p>You need the Adobe Flash Player to view this site</p>
+                    <p><a href="http://www.adobe.com/go/getflashplayer">
+                        <img border="0" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+            </div>
+ 		</noscript>
+
+<div align="center"><img src="../footer.jpg"></div>
+<script type="text/javascript" src="../../../js/analytics.js"></script>
+</body>
+</html>

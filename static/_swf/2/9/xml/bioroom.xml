@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bioroom>
+	<baseURL><![CDATA[]]></baseURL>
+	<archiver>
+		<url><![CDATA[../swf/archiver3.swf]]></url>
+	</archiver>
+	<bg><![CDATA[../img/bioroom/bg/bg3.jpg]]></bg>
+	<leftArrow><![CDATA[../img/bioroom/bg/leftArrow.png]]></leftArrow>
+	<rightArrow><![CDATA[../img/bioroom/bg/rightArrow.png]]></rightArrow>
+	<answering_machine_message>
+		<![CDATA[../mp3/day09_item_127.mp3]]>
+	</answering_machine_message>
+	<radio>
+		<![CDATA[../mp3/static.mp3]]>
+	</radio>
+	<items>
+		<item>
+			<linkage>messages</linkage>
+			<properties x="783" y="312" />
+			<url>
+			  <messages>
+				<![CDATA[xml/messages.xml]]>
+			  </messages>
+			  <fullsize>
+				<![CDATA[swf/messageArchiver.swf]]>
+			  </fullsize>
+			  <thumb>
+				<![CDATA[../img/bioroom/thumb/day7_audioarchieve.png]]>
+			  </thumb>
+			</url>
+		</item>
+	  <item>
+		<linkage>day5</linkage>
+		<properties x="1343" y="152" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day5_item241.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day5_item241.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day7</linkage>
+		<properties x="1412" y="357" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day7_item124.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day7_item124.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day9</linkage>
+		<properties x="88" y="440" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day9_item128.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day9_item128.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day9</linkage>
+		<properties x="16" y="480" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day9_item129.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day9_item129.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>Lunchbox</linkage>
+		<properties x="851" y="567" />
+		<url>
+		  <fullsize>
+			<![CDATA[../swf/lunchbox/lunchbox_puzzle.swf]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day7_item125.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	</items>
+</bioroom>

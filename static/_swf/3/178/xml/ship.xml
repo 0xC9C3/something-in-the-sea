@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ship>
+  <triggers>
+    <solvebox></solvebox>
+    <unsolvebox></unsolvebox>
+    <solvephase2></solvephase2>
+    <unsolvephase2></unsolvephase2>
+  </triggers>
+  <baseURL>
+    <![CDATA[]]>
+  </baseURL>
+  <archiver>
+	<url>
+     <![CDATA[../swf/archiver_ship_01_01.swf]]>
+    </url>
+    <x>822</x>
+    <y>682</y>
+  </archiver>
+  <archiver2>
+	 <url>
+      <![CDATA[../swf/archiver_ship_02_07.swf]]>
+    </url>
+    <x>1178</x>
+    <y>708</y>
+  </archiver2>
+  <bg>
+    <![CDATA[../img/ship/bg/bg9.jpg]]>
+  </bg>
+  <leftArrow>
+    <![CDATA[../img/ship/bg/leftArrow.png]]>
+  </leftArrow>
+  <rightArrow>
+    <![CDATA[../img/ship/bg/rightArrow.png]]>
+  </rightArrow>
+  <ham_radio>
+    <mp3><![CDATA[../mp3/day178_item933.mp3]]></mp3>
+    <x>2015</x>
+    <y>604</y>
+  </ham_radio>
+  <family_photo>
+    <link><![CDATA[../../Part2/Day_179/]]></link>
+	<linktarget>parent</linktarget>
+	<url>
+		<thumb>
+    	  <![CDATA[../img/ship/thumb/fampic_torn.png]]>
+    	</thumb>
+	</url>	
+    <x>1204</x>
+    <y>399</y>
+  </family_photo>
+  <items>
+  <item>
+      <linkage>messages</linkage>
+      <properties x="1942" y="607" />
+      <url>
+        <messages>
+          <![CDATA[xml/messagesship.xml]]>
+        </messages>
+        <fullsize>
+          <![CDATA[../swf/messageArchiverShip_day176.swf]]>
+        </fullsize>
+        <thumb>
+          <![CDATA[../img/ship/thumb/day145_audioarchive_blood.png]]>
+        </thumb>
+      </url>
+    </item>
+	  <item>
+		<linkage>day153_BUDDA</linkage>
+		<properties x="322" y="577"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day153_item835.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day153_item835_blood.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day145_CHART</linkage>
+		<properties x="1307" y="361"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day145_item753.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day145_item753_blood.png]]>
+		  </thumb>
+		</url>
+	  </item>		<item>
+		<linkage>day173</linkage>
+		<properties x="1346" y="646"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day173_item929.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day173_item929.png]]>
+		  </thumb>
+		</url>
+	  </item>	
+
+<item>
+		<linkage>day174</linkage>
+		<properties x="1363" y="493"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day174_item930.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day174_item930_blood.png]]>
+		  </thumb>
+		</url>
+	  </item>	<item>
+		<linkage>day176</linkage>
+		<properties x="70" y="463"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day176_item931.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day176_item931_blood.png]]>
+		  </thumb>
+		</url>
+	  </item>	<item>
+		<linkage>day177</linkage>
+		<properties x="115" y="456"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day177_item932.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day177_item932_blood.png]]>
+		  </thumb>
+		</url>
+	  </item>
+
+	  <item>
+		<linkage>shipbox</linkage>
+		<properties x="389" y="350" />
+		<url>
+		  <fullsize>
+			<![CDATA[../swf/the_box.swf]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/extended_box_blood.png]]>
+		  </thumb>
+		</url>
+	  </item>
+  </items>
+</ship>

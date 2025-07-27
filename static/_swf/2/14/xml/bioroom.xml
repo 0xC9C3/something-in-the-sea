@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bioroom>
+	<baseURL><![CDATA[]]></baseURL>
+	<archiver>
+		<url><![CDATA[../swf/archiver3.swf]]></url>
+	</archiver>
+	<bg><![CDATA[../img/bioroom/bg/bg4.jpg]]></bg>
+	<leftArrow><![CDATA[../img/bioroom/bg/leftArrow.png]]></leftArrow>
+	<rightArrow><![CDATA[../img/bioroom/bg/rightArrow.png]]></rightArrow>
+	<answering_machine_message>
+		<![CDATA[../mp3/day14_item206.mp3]]>
+	</answering_machine_message>
+	<radio>
+		<![CDATA[../mp3/static.mp3]]>
+	</radio>
+	<items>
+		<item>
+			<linkage>messages</linkage>
+			<properties x="783" y="312" />
+			<url>
+			  <messages>
+				<![CDATA[xml/messages.xml]]>
+			  </messages>
+			  <fullsize>
+				<![CDATA[swf/messageArchiver.swf]]>
+			  </fullsize>
+			  <thumb>
+				<![CDATA[../img/bioroom/thumb/day7_audioarchieve.png]]>
+			  </thumb>
+			</url>
+		</item>
+	  <item>
+		<linkage>day9</linkage>
+		<properties x="88" y="440" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day9_item128.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day9_item128.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day9</linkage>
+		<properties x="16" y="480" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day9_item129.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day9_item129.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day10</linkage>
+		<properties x="1530" y="568" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day10_item131.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day10_item131.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day10</linkage>
+		<properties x="1223" y="640" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day10_item132.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day10_item132.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day11</linkage>
+		<properties x="1112" y="625" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day11_item134.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day11_item134.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day11</linkage>
+		<properties x="970" y="360" />
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day11_item126.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day11_item126.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  	  <item>
+		<linkage>day13</linkage>
+		<properties x="4" y="464"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day13_item204.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day13_item204.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	   <item>
+		<linkage>day13</linkage>
+		<properties x="68" y="458"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day13_item205.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day13_item205.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	   <item>
+		<linkage>day14</linkage>
+		<properties x="1772" y="382"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/bioroom/fullsize/day14_item207.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day14_item207.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>Lunchbox</linkage>
+		<properties x="851" y="567" />
+		<url>
+		  <fullsize>
+			<![CDATA[../swf/lunchbox/lunchbox_puzzle.swf]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/bioroom/thumb/day7_item125.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	</items>
+</bioroom>

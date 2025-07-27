@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ship>
+  <triggers>
+    <solvebox></solvebox>
+    <unsolvebox></unsolvebox>
+    <solvephase2></solvephase2>
+    <unsolvephase2></unsolvephase2>
+  </triggers>
+  <baseURL>
+    <![CDATA[]]>
+  </baseURL>
+  <archiver>
+	<url>
+     <![CDATA[../swf/archiver_ship_01_01.swf]]>
+    </url>
+    <x>835</x>
+    <y>738</y>
+  </archiver>
+  <archiver2>
+	 <url>
+      <![CDATA[../swf/archiver_ship_02_06.swf]]>
+    </url>
+    <x>1194</x>
+    <y>738</y>
+  </archiver2>
+  <bg>
+    <![CDATA[../img/ship/bg/bg8.jpg]]>
+  </bg>
+  <leftArrow>
+    <![CDATA[../img/ship/bg/leftArrow.png]]>
+  </leftArrow>
+  <rightArrow>
+    <![CDATA[../img/ship/bg/rightArrow.png]]>
+  </rightArrow>
+  <ham_radio>
+    <mp3>
+	</mp3>
+    <x>2034</x>
+    <y>582</y>
+  </ham_radio>
+  <family_photo>
+    <link><![CDATA[bioroom/]]></link>
+	<linktarget>parent</linktarget>
+	<url>
+		<thumb>
+    	  <![CDATA[../img/ship/thumb/fampic.png]]>
+    	</thumb>
+	</url>	
+    <x>1190</x>
+    <y>440</y>
+  </family_photo>
+  <items>
+  <item>
+      <linkage>messages</linkage>
+      <properties x="1959" y="605" />
+      <url>
+        <messages>
+          <![CDATA[xml/messagesship.xml]]>
+        </messages>
+        <fullsize>
+          <![CDATA[../swf/messageArchiverShip_day165.swf]]>
+        </fullsize>
+        <thumb>
+          <![CDATA[../img/ship/thumb/day145_audioarchive.png]]>
+        </thumb>
+      </url>
+    </item>
+	  <item>
+		<linkage>day153_BUDDA</linkage>
+		<properties x="332" y="690"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day153_item835.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day153_item835.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day145_CHART</linkage>
+		<properties x="1301" y="395"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day145_item753.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day145_item753.png]]>
+		  </thumb>
+		</url>
+	  </item>
+
+
+	<item>
+		<linkage>day157</linkage>
+		<properties x="636" y="236"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day157_item945.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day157_item945.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day157</linkage>
+		<properties x="646" y="336"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day157_item849.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day157_item849.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day157</linkage>
+		<properties x="648" y="269"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day157_item940.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day157_item940.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day157</linkage>
+		<properties x="637" y="304"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day157_item941.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day157_item941.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day157</linkage>
+		<properties x="1252" y="640"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day157_item902.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day157_item902.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day157</linkage>
+		<properties x="1207" y="640"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day157_item901.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day157_item901.png]]>
+		  </thumb>
+		</url>
+	  </item>	<item>
+		<linkage>day159</linkage>
+		<properties x="1350" y="640"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day159_item905.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day159_item905.png]]>
+		  </thumb>
+		</url>
+	  </item>	<item>
+		<linkage>day159</linkage>
+		<properties x="1285" y="525"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day159_item946.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day159_item946.png]]>
+		  </thumb>
+		</url>
+	  </item>	<item>
+		<linkage>day160</linkage>
+		<properties x="1380" y="530"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day160_item947.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day160_item947.png]]>
+		  </thumb>
+		</url>
+	  </item>	<item>
+		<linkage>day161</linkage>
+		<properties x="1720" y="780"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day161_item910.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day161_item910.png]]>
+		  </thumb>
+		</url>
+	  </item>	<item>
+		<linkage>day162</linkage>
+		<properties x="70" y="560"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day162_item907.png]]>
+		  </fullsize>
+		  <thumb>
+		<![CDATA[../img/ship/thumb/day162_item907.png]]>
+		  </thumb>
+		</url>
+	  </item>		<item>
+		<linkage>day162</linkage>
+		<properties x="141" y="549"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day162_item908.png]]>
+		  </fullsize>
+		  <thumb>
+		<![CDATA[../img/ship/thumb/day162_item908.png]]>
+		  </thumb>
+		</url>
+	  </item>
+		<item>
+		<linkage>day163</linkage>
+		<properties x="710" y="190"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../swf/ship/day163_item943.swf]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day163_item942.png]]>
+		  </thumb>
+		</url>
+	  </item>		<item>
+		<linkage>day165</linkage>
+		<properties x="1812" y="792"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../img/ship/fullsize/day165_item916.png]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day165_item916.png]]>
+		  </thumb>
+		</url>
+	  </item>
+	  <item>
+		<linkage>day165</linkage>
+		<properties x="141" y="549"/>
+		<url>
+		  <fullsize>
+			<![CDATA[../swf/ship/day165_item914.swf]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/day165_item914.png]]>
+		  </thumb>
+		</url>
+	  </item>	  <item>
+		<linkage>shipbox</linkage>
+		<properties x="392" y="470" />
+		<url>
+		  <fullsize>
+			<![CDATA[../swf/the_box.swf]]>
+		  </fullsize>
+		  <thumb>
+			<![CDATA[../img/ship/thumb/extended_box.png]]>
+		  </thumb>
+		</url>
+	  </item>
+  </items>
+</ship>

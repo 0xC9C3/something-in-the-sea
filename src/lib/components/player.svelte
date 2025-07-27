@@ -24,7 +24,7 @@
 
 		player.ruffle().load({
 			url,
-			allowScriptAccess: false,
+			allowScriptAccess: true,
 		});
 
 		// get the child element of the player and set its width and height

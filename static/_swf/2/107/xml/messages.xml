@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+	<baseURL><![CDATA[]]></baseURL>
+	<message label="Archive 1">
+		<mp3><![CDATA[../mp3/day03_item_112.mp3]]></mp3>
+	</message>
+	<message label="Archive 2">
+		<mp3><![CDATA[../mp3/day04_item_113.mp3]]></mp3>
+	</message>
+	<message label="Archive 3">
+		<mp3><![CDATA[../mp3/day06_item_122.mp3]]></mp3>
+	</message>
+	<message label="Archive 4">
+		<mp3><![CDATA[../mp3/day07_item_123.mp3]]></mp3>
+	</message>
+	<message label="Archive 5">
+		<mp3><![CDATA[../mp3/day08_item_125.mp3]]></mp3>
+	</message>
+	<message label="Archive 6">
+		<mp3><![CDATA[../mp3/day09_item_127.mp3]]></mp3>
+	</message>
+	<message label="Archive 7">
+		<mp3><![CDATA[../mp3/day10_item_130.mp3]]></mp3>
+	</message>
+	<message label="Archive 8">
+		<mp3><![CDATA[../mp3/day12_item237.mp3]]></mp3>
+	</message>
+	<message label="Archive 9">
+		<mp3><![CDATA[../mp3/day14_item206.mp3]]></mp3>
+	</message>
+	<message label="Archive 6">
+		<mp3><![CDATA[../mp3/day15_item209.mp3]]></mp3>
+	</message>
+	<message label="Archive 7">
+		<mp3><![CDATA[../mp3/day19_item217.mp3]]></mp3>
+	</message>
+	<message label="Archive 8">
+		<mp3><![CDATA[../mp3/day20_item219.mp3]]></mp3>
+	</message>
+	<message label="Archive 9">
+		<mp3><![CDATA[../mp3/day23_item222.mp3]]></mp3>
+	</message>
+	<message label="Archive 10">
+		<mp3><![CDATA[../mp3/day24_item223.mp3]]></mp3>
+	</message>
+	<message label="Archive 11">
+		<mp3><![CDATA[../mp3/day27_item229.mp3]]></mp3>
+	</message>
+	<message label="Archive 12">
+		<mp3><![CDATA[../mp3/day30_item233.mp3]]></mp3>
+	</message>
+	<message label="Archive 13">
+		<mp3><![CDATA[../mp3/day36_item_303.mp3]]></mp3>
+	</message>
+	<message label="Archive 14">
+		<mp3><![CDATA[../mp3/day38_item_307.mp3]]></mp3>
+	</message>
+	<message label="Archive 15">
+		<mp3><![CDATA[../mp3/day39_item_309.mp3]]></mp3>
+	</message>
+	<message label="Archive 16">
+		<mp3><![CDATA[../mp3/day40_item_341.mp3]]></mp3>
+	</message>
+	<message label="Archive 17">
+		<mp3><![CDATA[../mp3/day41_item_333.mp3]]></mp3>
+	</message>
+	<message label="Archive 18">
+		<mp3><![CDATA[../mp3/day44_item_335.mp3]]></mp3>
+	</message>
+	<message label="Archive 19">
+		<mp3><![CDATA[../mp3/day48_item_338.mp3]]></mp3>
+	</message>
+	<message label="Archive 20">
+		<mp3><![CDATA[../mp3/day49_item_313.mp3]]></mp3>
+	</message>
+	<message label="Archive 21">
+		<mp3><![CDATA[../mp3/day53_item315.mp3]]></mp3>
+	</message>
+	<message label="Archive 22">
+		<mp3><![CDATA[../mp3/day54_Item403.mp3]]></mp3>
+	</message>
+	<message label="Archive 23">
+		<mp3><![CDATA[../mp3/day56_Item318.mp3]]></mp3>
+	</message>
+	<message label="Archive 24">
+		<mp3><![CDATA[../mp3/day61_Item414.mp3]]></mp3>
+	</message>
+	<message label="Archive 25">
+		<mp3><![CDATA[../mp3/day63_Item415.mp3]]></mp3>
+	</message>
+	<message label="Archive 26">
+		<mp3><![CDATA[../mp3/day67_Item433.mp3]]></mp3>
+	</message>
+	<message label="Archive 27">
+		<mp3><![CDATA[../mp3/day69_Item323.mp3]]></mp3>
+	</message>
+	<message label="Archive 29">
+		<mp3><![CDATA[../mp3/day70_Item457.mp3]]></mp3>
+	</message>
+	<message label="Archive 30">
+		<mp3><![CDATA[../mp3/day76_Item459.mp3]]></mp3>
+	</message>
+	<message label="Archive 31">
+		<mp3><![CDATA[../mp3/day77_Item462.mp3]]></mp3>
+	</message>
+	<message label="Archive 32">
+		<mp3><![CDATA[../mp3/day78_Item464.mp3]]></mp3>
+	</message>
+	<message label="Archive 33">
+		<mp3><![CDATA[../mp3/day80_item502.mp3]]></mp3>
+	</message>
+	<message label="Archive 34">
+		<mp3><![CDATA[../mp3/day82_item507.mp3]]></mp3>
+	</message>
+	<message label="Archive 35">
+		<mp3><![CDATA[../mp3/day84_item513.mp3]]></mp3>
+	</message>
+	<message label="Archive 36">
+		<mp3><![CDATA[../mp3/day86_item518.mp3]]></mp3>
+	</message>
+	<message label="Archive 37">
+		<mp3><![CDATA[../mp3/day92_item528.mp3]]></mp3>
+	</message>
+	<message label="Archive 38">
+		<mp3><![CDATA[../mp3/day94_item532.mp3]]></mp3>
+	</message>
+	<message label="Archive 39">
+		<mp3><![CDATA[../mp3/day95_item534.mp3]]></mp3>
+	</message>
+	<message label="Archive 40">
+		<mp3><![CDATA[../mp3/day96_item537.mp3]]></mp3>
+	</message>
+	<message label="Archive 41">
+		<mp3><![CDATA[../mp3/day97_item538.mp3]]></mp3>
+	</message>
+	<message label="Archive 42">
+		<mp3><![CDATA[../mp3/day100_item602.mp3]]></mp3>
+	</message>
+	<message label="Archive 43">
+		<mp3><![CDATA[../mp3/day101_item607.mp3]]></mp3>
+	</message>
+	<message label="Archive 44">
+		<mp3><![CDATA[../mp3/day106_item615.mp3]]></mp3>
+	</message>
+</messages>

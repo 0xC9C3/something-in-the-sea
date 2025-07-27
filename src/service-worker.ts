@@ -1,5 +1,18 @@
 /// <reference types="@sveltejs/kit" />
 
+let playerContext: {
+	part: string;
+	day: string;
+}  = {
+	part: '1',
+	day: '1'
+};
+
+self.addEventListener('message', (event) => {
+	console.log('Service Worker received message:', event.data);
+	playerContext = event.data;
+})
+
 self.addEventListener('fetch', (event) => {
 	// ignore POST requests etc
 	if (event.request.method !== 'GET') return;
@@ -28,7 +41,6 @@ self.addEventListener('fetch', (event) => {
 			return await fetch(modifiedRequest);
 		}
 
-		// if the request referer is i.e. "/parts/1/1" we need to rewrite it to "/swf/1/1/.."
 		if (referrer.includes('/parts/') && (
 			event.request.url.includes('.swf') ||
 			event.request.url.includes('.xml') ||
@@ -38,12 +50,19 @@ self.addEventListener('fetch', (event) => {
 		)) {
 			const url = new URL(event.request.url);
 			console.log('Rewriting URL:', url.href);
-			const file = url.pathname.split('/').pop();
 
-			const refererPathname = new URL(referrer).pathname;
+
+			// take everything from the pathname after "/parts/" or if there is no "/parts/" then the whole pathname
+			const file = url.pathname.split('/')
+				.filter(part => part !== 'parts' && part !== '')
+				.join('/');
 
 			// replace the last part of the pathname with "swf"
-			url.pathname = refererPathname.replace('/parts', '/swf') + '/' + file;
+			if (!url.pathname.startsWith('/_swf/')) {
+				url.pathname = `/_swf/${playerContext.part}/${playerContext.day}/${file}`;
+			}
+			// url remove referer
+			console.log('Modified URL:', event.request.url, referrer, url.pathname );
 
 			// create a new request with the modified URL
 			const modifiedRequest = new Request(url, {
@@ -55,6 +74,8 @@ self.addEventListener('fetch', (event) => {
 			});
 
 			const response = await fetch(modifiedRequest);
+
+			//console.log(response);
 
 			// if the response is a 404, we need to return a 200 response, this seems to fix some issues
 			// with some textures
