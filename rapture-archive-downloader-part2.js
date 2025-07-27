@@ -18,6 +18,10 @@ async function getUrlsForDay(dayNumber) {
 		url: `${url}swf/preloader.swf`,
 		path: `swf/preloader.swf`
 	});
+	downloadUrls.push({
+		url: `${url}swf/answeringMachine.swf`,
+		path: `swf/answeringMachine.swf`
+	});
 
 	const response = await fetch(`${url}xml/bioroom.xml`);
 
