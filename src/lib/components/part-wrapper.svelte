@@ -21,17 +21,6 @@
 
 	let parentDiv: HTMLDivElement;
 
-	onMount(() => {
-		// try to fetch the initial url to get the service worker registered
-		fetch(`/_swf/${part}/${day}/${startKey}`)
-			.then(() => {
-				console.log('Initial SWF loaded successfully');
-			})
-			.catch(err => {
-				console.error('Error loading initial SWF:', err);
-			});
-	})
-
 	// on day change reload the player
 	$effect(() => {
 		if ('serviceWorker' in navigator) {

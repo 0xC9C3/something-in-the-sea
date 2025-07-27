@@ -8,6 +8,11 @@ let playerContext: {
 	day: '1'
 };
 
+self.addEventListener('activate', (event) =>  {
+
+	event.waitUntil(self.clients.claim());
+})
+
 self.addEventListener('message', (event) => {
 	console.log('Service Worker received message:', event.data);
 	playerContext = event.data;

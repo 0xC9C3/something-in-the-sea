@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
 	import '../app.css';
+	import { onMount } from 'svelte';
 
 	let { children } = $props();
 	let serviceWorkerRegistered = $state(false);
